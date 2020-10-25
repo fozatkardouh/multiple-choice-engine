@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "engine.language",
+      "type": "java.lang.String",
+      "description": "Language of locale to be used in messages."
+    },
+    {
+      "name": "engine.country",
+      "type": "java.lang.String",
+      "description": "Country of locale to be used in messages."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+id: parentChoice
+messageKey: parentMsgKey
+active: true
+availableSubChoices:
+
+  - id: son1
+    messageKey: msg1
+    active: true
+    availableSubChoices:
+
+      - id: son1OfSon1
+        messageKey: msg1
+        active: true
+        availableSubChoices: [ ]
+
+      - id: son2OfSon1
+        messageKey: msg1
+        active: false
+        availableSubChoices: [ ]
+
+      - id: son3OfSon1
+        messageKey: msg1
+        active: true
+        availableSubChoices: [ ]
+
+  - id: son2
+    messageKey: msg2
+    active: true
+    availableSubChoices: [ ]
