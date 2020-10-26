@@ -23,8 +23,8 @@ public class MessagesResourceImpl implements MessagesResource {
     }
 
     @Override
-    public String retrieveMessage(String MessageKey) {
-        return accessor.getMessage(MessageKey);
+    public String retrieveMessage(String messageKey) {
+        return accessor.getMessage(messageKey);
     }
 
 }
